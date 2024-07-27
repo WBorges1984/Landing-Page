@@ -1,0 +1,36 @@
+.containerMenu{
+    display: grid;
+    grid-template-columns:30% 70%;
+    padding: 2rem 0.9rem  0.5rem 4rem ;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.linkMenu{
+    display: flex;
+    justify-content: space-around;
+    gap: 9rem;
+}
+
+.linkMenu a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.logoMenu h4{
+    font-family: fantasy;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.social{
+    display: flex;
+    gap: 2.5rem;
+}

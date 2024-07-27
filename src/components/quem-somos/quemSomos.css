@@ -1,0 +1,11 @@
+.containerQuemSomos{
+    background-image: url('../../../public/assets/images/quemsomos.png');
+    min-width: 1440px;
+    min-height: 559px;
+}
+
+.containerBanner{
+    background-image: url('../../../public/assets/images/banner.png');
+    min-width: 1440px;
+    min-height: 559px;
+}
