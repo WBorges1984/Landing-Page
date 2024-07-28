@@ -27,3 +27,41 @@
     font-weight: 700;
     font-style: normal;
 }
+
+@media (max-width: 768px) {
+    .containerBanner{
+        background-image: url('../../../public/assets/images/bannerMobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-width: auto;
+        min-height: 1048px;
+         
+    }
+
+    
+    .textButtons{
+        color: #fff;
+        width: auto;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    
+    .texts h1{
+        font-family: 'Poppins';
+        font-size: 48px;
+        width: auto;
+    }
+    
+    .texts p{
+        font-family: 'Poppins';
+        font-size: 21px;
+        width: auto;
+    }
+    
+    .texts em{
+        color: #FBC508;
+        font-weight: 700;
+        font-style: normal;
+    }
+}
