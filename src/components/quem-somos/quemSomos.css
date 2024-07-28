@@ -1,11 +1,44 @@
 .containerQuemSomos{
-    background-image: url('../../../public/assets/images/quemsomos.png');
+    background:URL('../../../public/assets/images/quemsomos.png');
+    background-size: cover;
     min-width: 1440px;
-    min-height: 559px;
+    min-height: 679px;
+    margin-top: 80px;
 }
 
-.containerBanner{
-    background-image: url('../../../public/assets/images/banner.png');
-    min-width: 1440px;
-    min-height: 559px;
+.conteudoSomos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    padding-top: 10%;
+    max-width: 442px;
+}
+
+.textsSomos span{
+    color: #7E41B7;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.textsSomos h3{
+    font-family: 'Poppins';
+    color: #3a1f54;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.textsSomos p{
+    font-size: 16px;
+}
+
+.textsSomos em{
+    font-weight: 900;
+    color: #7E41B7;
+    font-style: normal;
+}
+
+.btn-somos{
+    margin: 0;
+    margin-top: 10px;
+
 }

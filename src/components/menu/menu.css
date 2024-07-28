@@ -34,3 +34,11 @@
     display: flex;
     gap: 2.5rem;
 }
+
+.fontWhite{
+    color: #fff;
+}
+
+.fontWhite a{
+    color: #fff;
+}

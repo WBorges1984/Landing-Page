@@ -1,0 +1,45 @@
+.containerFooter{
+    height: 330px;
+    background-color: #2B0955;
+}
+
+.menuFotter{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.nextlatter{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 1197px;
+    gap: 15px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.inputButton input{
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    height: 35px;
+}
+
+.inputButton button{
+    margin: 0;
+    height: 35px;
+}
+
+.direitos{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #fff;
+}

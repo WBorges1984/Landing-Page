@@ -3,9 +3,9 @@ import './menu.css'
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 
-function Menu() {
+function Menu(props) {
   return (
-    <div className="containerMenu">
+    <div className={props.white ? "containerMenu fontWhite" : "containerMenu" }>
       <div className="logoMenu">
         <h4>borges</h4>
       </div>
