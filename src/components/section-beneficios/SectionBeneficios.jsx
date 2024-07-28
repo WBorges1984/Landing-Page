@@ -14,7 +14,7 @@ function SectionBeneficios() {
           <p>Palavras chaves que ajudam no SEO.</p>
         </div>
       </div>
-
+      
       <div className="cards">
         <article className='card'>
           <img src="assets/images/target.png" alt="" />
@@ -46,6 +46,7 @@ function SectionBeneficios() {
             <button type="button"><IoMdAddCircle size={25}/></button>
           </div>
         </article>
+        
       </div>
     </div>
   )

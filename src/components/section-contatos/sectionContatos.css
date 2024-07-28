@@ -82,3 +82,92 @@
     display: flex;
     justify-content: end;
 }
+
+@media (max-width: 768px) {
+    .contatos{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #f8f5fa;
+        height: 559px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 90px;
+    }
+    
+    .contatos img{
+        width: 154px;
+    }
+    
+    .contatos h3{
+        font-family: 'Poppins';
+        color: #2B0955;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .contatos hr{
+        width: 97px;
+        border: 2px solid #FBC508;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .textForm{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .txtContatos{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 300px;
+        text-align: start;
+    }
+    
+    .txtContatos p{
+        font-size: 16px;
+    }
+    
+    .txtContatos span{
+        text-decoration: underline;
+        color: #2B0955;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .txtContatos em{
+        color: #7910FF;
+        font-weight: 700;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    
+    .form label{
+        color: #7910FF;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .form input{
+        border-radius: 5px;
+        height: 40px;
+        padding-left: 10px;
+    }
+    
+    .formButton{
+        display: flex;
+        justify-content: end;
+    }
+
+}

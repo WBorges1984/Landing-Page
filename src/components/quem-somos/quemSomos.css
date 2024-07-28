@@ -42,3 +42,50 @@
     margin-top: 10px;
 
 }
+
+@media (max-width: 768px) {
+    .containerQuemSomos{
+        background:URL('../../../public/assets/images/quemsomosMobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-width: 375px;
+        min-height: 679px;
+    }
+    
+    .conteudoSomos{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        padding-top: 10%;
+        max-width: 375px;
+    }
+    
+    .textsSomos span{
+        color: #7E41B7;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .textsSomos h3{
+        font-family: 'Poppins';
+        color: #3a1f54;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    
+    .textsSomos p{
+        font-size: 16px;
+    }
+    
+    .textsSomos em{
+        font-weight: 900;
+        color: #7E41B7;
+        font-style: normal;
+    }
+    
+    .btn-somos{
+        margin: 0;
+        margin-top: 10px;
+    
+    }
+}

@@ -72,3 +72,102 @@
     justify-content: center;
     gap: 10%;
 }
+
+@media (max-width: 768px) {
+
+    .containerBeneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        padding: 0 15px;
+        margin-top: 40px;
+    }
+   
+    .tituloBeneficios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: auto;
+        padding: 0 30px;
+    }
+    
+    .tituloBeneficios h3{
+        font-size: 24px;
+        color: #2B0956;
+    }
+    
+    .tituloBeneficios p{
+        font-size: 16px;
+    }
+    
+    .tituloBeneficios hr{
+        width: 97px;
+        border: 2px solid #FBC508;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cards{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 306px;
+        box-shadow: 0 0 1em #c2c2c2;
+        border-radius: 10px;
+        font-family: 'Poppins';
+    }
+    
+
+    .card img{
+        width: 171px;
+        position: relative;
+        top: -50px;
+        left: 50px;
+    }
+    .cardTexts{
+        width: max-content;
+        margin-left: 5%;
+    }
+    .card h5{
+        font-size: 18px;
+    }
+    
+    .card p{
+        font-size: 16px;
+        width: 221px;
+    }
+    
+    .card button{
+        border: none;
+        background: transparent;   
+        cursor: pointer;
+    }
+    
+    .btnPlus{
+        text-align: end;
+        margin-right: 5%;
+    }
+    
+    .btnPlus svg{
+        color: #2B0956;
+    }
+    
+   
+    
+    
+
+}
