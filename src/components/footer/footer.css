@@ -46,18 +46,14 @@
 
 @media (max-width: 768px) {
     .containerFooter{
-        height: 430px;
+        height: 230px;
         background-color: #2B0955;
         margin-top: 80px;
     }
     
     .menuFotter{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        display: none;
+        
     }
     
     
@@ -86,16 +82,20 @@
         background-color: transparent;
         border: 1px solid #fff;
         height: 35px;
+        margin: 0 20px;
     }
     
     .inputButton button{
         margin: 0;
         height: 35px;
+        
+        margin: 14px 0px 0 20px;
     }
+
     
     .direitos{
         text-align: center;
-        margin-top: 5px;
+        margin-top: 2px;
         font-family: 'Poppins';
         font-size: 12px;
         color: #fff;
