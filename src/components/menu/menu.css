@@ -1,9 +1,9 @@
 .containerMenu{
     display: grid;
     grid-template-columns:30% 70%;
-    padding: 2rem 0.9rem  0.5rem 4rem ;
     justify-content: space-around;
     width: 100%;
+    padding: 2rem 0.9rem  0.5rem 4rem ;
 }
 
 .menu{
@@ -43,17 +43,7 @@
     color: #fff;
 }
 /* Estilos para dispositivos móveis */
-.linkMenuHamburguer{
-    align-items: start;
-    justify-content: center;
-    font-weight: 700;
-    width: 100%;
-    gap: 15px;
-    text-decoration: none;
-}
-.linkMenuHamburguer a{
-    text-decoration: none;
-}
+
 .rotate{
     transform: rotate(90deg);
     position: relative;
@@ -62,11 +52,23 @@
     transition: 0.5s;
 }
 
+.linkMenuHamburguer{display: none;}
+.showBurguer{display: block;}
 
 @media (max-width: 768px) {
     .linkMenu{display: none;}
-    
-    
+
+    .linkMenuHamburguer{
+        align-items: start;
+        justify-content: center;
+        font-weight: 700;
+        width: 100%;
+        gap: 15px;
+        text-decoration: none;
+    }
+    .linkMenuHamburguer a{
+        text-decoration: none;
+    }
 
     .containerMenu {
         display: grid;
